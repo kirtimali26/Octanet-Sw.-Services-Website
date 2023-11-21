@@ -1,0 +1,24 @@
+#contactdiv{
+
+
+div
+{
+    width: 100px;height: 100px;
+    background: red;
+    animation: mymove ;
+    position: relative;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-direction: normal; */
+}
+@keyframes mymove
+{
+    0%{backgroun:red;left:0px;top:0px;}
+    25%{backgroun:green;left:200px;top:0px;}
+    50%{backgroun:blue;left:200px ;top:200px;}
+    75%{backgroun:yellow;left:0px;top:200px;}
+   100%{backgroun:red;left:0px;top:0px;}
+
+
+}
+}
